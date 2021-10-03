@@ -47,40 +47,83 @@ table {
 	border-spacing: 0;
 }
 /*my content*/
-.first
+h1{
+    font-size: 36px;
+    margin: 36px;
+}
+.box
 {
-    height: 400px;
-    width: 260px;
+    height: 180px;
+    width: 100px;
     background-color: red;
-    border: 10px soild black;
+    border: 10px solid black;
     padding: 20px;
-    
+    display: inline-block;
+    margin: 40px;
 
 }
-box1
+/* u can also use span 2 span inside the div and give two diff classes for span and work independently but its lengthy*/ 
+.doubble
 {
-    height: 400px;
-    width: 260px;
+    height: 180px;
+    width: 100px;
     background-color: red;
-    border: 10px soild black;
+    border: 10px double black;
+    padding: 20px;
+    display: inline-block;
+    margin: 40px;
 
 }
-.second
+.dashed
 {
-    height: 400px;
-    width: 260px;
+    height: 180px;
+    width: 100px;
     background-color: red;
-    
+    border: 10px dashed black;
+    padding: 20px;
+    display: inline-block;
+    margin: 40px;
+
 }
-.third
+.dotted
 {
-    height: 400px;
-    width: 260px;
+    height: 180px;
+    width: 100px;
     background-color: red;
-    
+    border: 10px dotted black;
+    padding: 20px;
+    display: inline-block;
+    margin: 40px;
+
+}
+.none
+{
+    height: 180px;
+    width: 100px;
+    background-color: red;
+    border: 10px none black;
+    padding: 20px;
+    display: inline-block;
+    margin: 40px;
+
 }
 p{
-    height: 600px;
+    
     width: 600px;
     background-color: red;
+    font-size: 20px;
+    color: white;
+    padding: 24px;
+    border-top: 10px solid blue;
+    border-right: 10px solid gray;
+    border-bottom: 10px solid yellow;
+    border-left: 10px solid green;
+
+}
+.paragraph-container
+{
+    background-color: purple;
+    padding: 36px 24px;
+    display: inline-block;
+    margin: 32px;
 }
